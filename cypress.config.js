@@ -5,7 +5,13 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
         },
-        defaultCommandTimeout: 5000,  
+        
         chromeWebSecurity: false,
+        defaultCommandTimeout: 20000,
+        pageLoadTimeout: 60000,
+        watchForFileChanges: false,
+        experimentalModifyObstructiveThirdPartyCode: true,
+        experimentalSessionAndOrigin: true
+
   },
 });

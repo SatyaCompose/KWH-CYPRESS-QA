@@ -17,7 +17,13 @@
   },
   "homepage": "https://github.com/jjtech-digital/kwh-cypress-qa#readme",
   "devDependencies": {
-    "cypress": "^14.0.1",
-    "cypress-iframe": "^1.0.1"
+    "cypress": "^14.1.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-real-events": "^1.14.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "@paypal/react-paypal-js": "^8.8.2",
+    "neat-csv": "^5.2.0"
   }
 }
